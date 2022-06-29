@@ -586,7 +586,7 @@ def get_timeshift_baz(geometry, sll, slm, sls, baze, source_depth, distance, pha
             # print(time_shift_tbl)
 
             if static_3D:
-	          time_shift_tbl[:, k] += geometry[:, 2] * np.cos(inc) / vel_cor
+		time_shift_tbl[:, k] += geometry[:, 2] * np.cos(inc) / vel_cor
     
     #print("TIME SHIFT TABLE")
     # print(time_shift_tbl)
