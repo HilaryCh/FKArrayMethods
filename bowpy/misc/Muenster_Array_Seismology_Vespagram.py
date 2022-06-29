@@ -198,7 +198,7 @@ def vespagram(stream, ev, inv, method, scale, nthroot=4,
     slow, beams, max_beam, beam_max, mini, maxi = vespagram_baz(sz, **kwargs)
     # print slow
     # print total time in routine
-    print "Total time in routine: %.2f\n" % (UTCDateTime() - start)
+    print ("Total time in routine: %.2f\n" % (UTCDateTime() - start)
     
     # Plot the seismograms
     # sampling rate
